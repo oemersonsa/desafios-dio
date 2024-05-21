@@ -1,7 +1,7 @@
-#Desafio Conta Digital - DIO 
+# Desafio Conta Digital - DIO 
 Este é um sistema básico de gerenciamento de contas bancárias implementado em Java. Ele permite a criação de contas bancárias para clientes, bem como a realização de operações como depósito, saque, transferência e visualização de extrato.
 
-##Funcionalidades
+## Funcionalidades
 Menu de Conta:
 
 Entrar na conta existente
@@ -16,7 +16,7 @@ Visualizar Extrato
 Como Executar
 Para executar o sistema, você precisa ter o Java instalado em seu computador. Siga estas etapas:
 
-##Estrutura do Código
+## Estrutura do Código
 Main.java: Arquivo principal para iniciar o programa.
 ClientRegistry.java: Classe responsável por gerenciar a interação com os clientes e suas contas.
 Bank.java: Classe que representa o banco, armazenando informações sobre contas e clientes.
