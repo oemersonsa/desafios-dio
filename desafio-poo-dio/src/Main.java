@@ -33,10 +33,12 @@ public class Main {
         dev.setNome("Emerson");
         dev.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos " + dev.getConteudosInscritos());
+        dev.certificado();
+        dev.progredir();
+        dev.certificado();
         dev.progredir();
         dev.progredir();
-        dev.progredir();
-        System.out.println("=".repeat(200));
+        System.out.println("=".repeat(10));
         System.out.println("Conteúdos Inscritos " + dev.getConteudosInscritos());
         System.out.println("Conteúdos Concluidos " + dev.getConteudosConcluidos());
         System.out.println("XP" + dev.calcularXP());

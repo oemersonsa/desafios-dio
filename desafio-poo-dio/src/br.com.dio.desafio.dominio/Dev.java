@@ -24,6 +24,7 @@ public class Dev {
         if (conteudo.isPresent()) {
             this.conteudosConcluidos.add(conteudo.get());
             this.conteudosInscritos.remove(conteudo.get());
+            System.out.println("Conteudo concluido com sucesso!");
         } else {
             System.err.println("Você não está matriculado em nenhum conteúdo!");
         }
@@ -34,6 +35,14 @@ public class Dev {
                 .stream()
                 .mapToDouble(Conteudo::calcularXP)
                 .sum();
+    }
+
+    public void certificado() {
+        if (!conteudosConcluidos.isEmpty()) {
+            System.out.println("Parabéns você conquistou um certificado!");
+        } else {
+            System.out.println("Conclua um curso ou mentoria para conquistar seu certificado!");
+        }
     }
 
     public String getNome() {
